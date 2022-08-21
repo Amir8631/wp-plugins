@@ -30,7 +30,7 @@ body{
 
 
 .first {
-	display: flex;
+	display: flex; 
 	position: absolute;
 	top: 2%;
 	left: 5%;
