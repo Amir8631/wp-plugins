@@ -13,7 +13,7 @@ body{
 }
 
 
-.logo{
+.logo { 
 	width: 50px;       
 	position: absolute;
 	top: 2%;
@@ -22,7 +22,7 @@ body{
 }
 
 
-.banner-text{
+.banner-text {
 	margin: 0;
 	padding: 0;
 }
