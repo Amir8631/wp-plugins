@@ -5,7 +5,7 @@
                           :breakpoints [:mobile
                                         768
                                         :tablet 
-                                        992
+                                        992 
                                         :small-monitor
                                         1200
                                         :large-monitor]
