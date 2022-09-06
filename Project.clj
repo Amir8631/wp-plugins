@@ -4,7 +4,7 @@
                          {;; required
                           :breakpoints [:mobile
                                         768
-                                        :tablet
+                                        :tablet 
                                         992
                                         :small-monitor
                                         1200
