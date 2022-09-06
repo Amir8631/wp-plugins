@@ -11,7 +11,7 @@
                                         :large-monitor]
 
                           ;; optional
-                          :debounce-ms 166
+                          :debounce-ms 166 
                           }])
 
 (re-frame/subscribe [::bp/screen-width]) ;; will be an int
