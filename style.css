@@ -13,6 +13,33 @@ body{
 }
 
 
+
+
+.grid{
+	display: grid;
+	min-width: 768px;
+	max-width: 1024px;
+	grid-template-columns: 1fr 1fr;
+}
+
+	
+@media screen and (min-width: 768px) {
+	.gride--1x2{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.gride--1x3{
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+
+
+
+
+
+
 .logo { 
 	width: 50px;       
 	position: absolute;
