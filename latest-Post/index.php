@@ -12,7 +12,7 @@ Author: Amir
 function wpcat_postsbycategory() {
 
 
-$the_query = new WP_Query( array( 'category_name' => 'categoryslug', 'posts_per_page' => 10 ) ); 
+$the_query = new WP_Query( array( 'posts' => 'posts', 'posts_per_page' => 10 ) ); 
 
 
 
