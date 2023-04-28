@@ -19,7 +19,7 @@ $the_query = new WP_Query( array( 'posts' => 'posts', 'posts_per_page' => 10 ) )
 if ( $the_query->have_posts() ) {
 
 
-    $string .= '<ul class="postsbycategory widget_recent_entries">';
+    $string = '<ul class="postsbycategory widget_recent_entries">';
 
 
     while ( $the_query->have_posts() ) {
@@ -52,17 +52,12 @@ if ( $the_query->have_posts() ) {
 $string .= '</ul>';
 
 
- 
-
 
 return $string;
 
 
-wp_reset_postdata();
-
-
 }
-
+wp_reset_postdata();
 
 add_shortcode('categoryposts', 'wpcat_postsbycategory');
 
