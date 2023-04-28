@@ -52,12 +52,12 @@ if ( $the_query->have_posts() ) {
 $string .= '</ul>';
 
 
+wp_reset_postdata();
 
 return $string;
 
 
 }
-wp_reset_postdata();
 
 add_shortcode('categoryposts', 'wpcat_postsbycategory');
 
