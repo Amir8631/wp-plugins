@@ -8,7 +8,7 @@ Version: 1.0
 Author: Amir
 */
 
-
+include 'feature-request.php';
 function wpcat_postsbycategory() {
 
 
