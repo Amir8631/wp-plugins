@@ -1,9 +1,14 @@
 <?php
 
 function feature_request() {
-$args = array();
-	
-register_post_type('test', '$args');
+	register_post_type('feature_request', array(
+		'public' => true,
+		'labels' => array(
+		  'name' => "Feature Request"
+		),
+	    'menu_icon' => 'dashicons-format-chat'
+	));
+
 }
 add_action('init', 'feature_request');
 
